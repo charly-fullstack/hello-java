@@ -4,14 +4,12 @@ package com.charly;
 public class Main {
     public static void main(String[] args) {
 
-         int a = 20;
-         int b = 6;
+          int age = 20;
+          boolean hasLicense = true;
 
-         System.out.println("Addition : " +(a + b));
-        System.out.println("Soustraction : " + (a - b));
-        System.out.println("Multiplication : " + (a * b));
-        System.out.println("Division : " + (a / b));
-        System.out.println("Modulo : " + (a % b));
+          System.out.println("AND (&&) : " + (age >= 18 && hasLicense));
+          System.out.println("OU (||) : " + (age >= 18 || hasLicense));
+          System.out.println("NOT (!) : " + (!hasLicense));
 
     }
 }
